@@ -1,2 +1,2 @@
 # Node API
-Node API development repository to handle REST request Messages
+Node API development repository to handle REST API request Messages
