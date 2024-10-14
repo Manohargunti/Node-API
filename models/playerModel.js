@@ -6,11 +6,11 @@ const playerSchema = new Schema({
       type: String,
       required: true,
     },
-    number: {
+    Number: {
       type: Number,
       required: true,
     },
-    position: {
+    Position: {
       type: String,
       required: true,
     },

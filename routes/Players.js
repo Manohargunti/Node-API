@@ -6,9 +6,9 @@ const mongoose = require("mongoose");
 
 // POST a new player
 router.post("/", async (req, res) => {
-    const { name, number, position} = req.body;
+    const { name, Number, Position} = req.body;
     try {
-      const player = await Player.create({ name, number, position });
+      const player = await Player.create({ name, Number, Position });
       res.status(200).json(player);
     } catch (error) {
       res.status(400).json({ error: error.message });
