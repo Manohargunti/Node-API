@@ -10,7 +10,7 @@ mongoose
   .then(() => {
     console.log("Connected to MongoDB");
     app.listen(port, () => {
-      console.log("Example app listening on port" + port);
+      console.log("Example app listening on port" + port); 
     });
   })
   .catch((err) => console.error("Failed to connect", err));
